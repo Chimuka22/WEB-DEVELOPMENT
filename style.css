@@ -1,0 +1,103 @@
+body 
+{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/1971_bugema.library-Optimized.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cornflowerblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(56, 14, 14);}
+
+ul.topnav li a.active {background-color: rgb(100, 100, 197);}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+.Schools p
+{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding:0 16px;
+}
+.Schools h2
+{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(6, 4, 99);
+    padding:0 16px;
+}
+h2
+{
+    color: rgb(6, 4, 99);
+    font-size: 26;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.index
+{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding:0 16px;  
+}
+.contacts
+{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding:0 16px;  
+}
+
+.gallery
+{
+    font-size: 26;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(11, 170, 243);
+}
+.active{
+    background-color: silver;
+    color: black;
+}
+/*.imag{
+    width: 20;
+    height: auto;
+    float: right;
+    margin-right: 7px;
+
+}
+div.p{
+    border: 4px seagreen;
+    margin-bottom: 10;
+    padding: 10px;
+    height: 140px;
+}
+ul{
+    background-color: grey;
+    width: 300px;
+    list-style-type: none;
+}
